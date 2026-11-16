@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#090b12" />
+  <meta name="description" content="Fayyaz Ahmed Khan — Full-Stack Web Developer building responsive web experiences and AI-powered applications." />
+  <title>Fayyaz Ahmed Khan — Full-Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <div class="cursor-dot" id="cursorDot"></div><div class="cursor-ring" id="cursorRing"></div>
+  <div class="ambient-pointer" id="ambientPointer"></div>
+  <div class="preloader" id="preloader">
+    <div class="loader-mark">FK<span>.</span></div>
+    <div class="loader-track"><span></span></div>
+    <p>BUILDING SOMETHING GOOD</p>
+  </div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#home" aria-label="Fayyaz home">FK<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+    <nav class="nav" id="nav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#work">Projects</a>
+      <a href="#journey">Journey</a>
+      <a class="nav-contact" href="#contact">Let's talk <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-orb orb-one"></div><div class="hero-orb orb-two"></div>
+      <div class="hero-grid"></div>
+      <div class="hero-content">
+        <div class="eyebrow reveal"><span class="status-dot"></span> AVAILABLE FOR OPPORTUNITIES <span class="eyebrow-line"></span> KARACHI, PK</div>
+        <p class="hero-kicker reveal">HELLO, I'M FAYYAZ AHMED KHAN</p>
+        <h1 class="hero-title reveal">I build things<br>for the <span class="gradient-text">web<span class="period">.</span></span></h1>
+        <p class="hero-description reveal">Full-Stack Web Developer focused on creating responsive, user-friendly digital experiences and practical applications.</p>
+        <div class="hero-actions reveal">
+          <a class="button button-primary magnetic" href="#work">Explore my work <span>↗</span></a>
+          <a class="button button-ghost" href="Fayyaz_Ahmed_Khan_Resume_2026.pdf" target="_blank" rel="noopener">View résumé <span>↓</span></a>
+        </div>
+        <div class="hero-meta reveal">
+          <div><span class="meta-label">FOCUS</span><strong>Web · Full-Stack · AI</strong></div>
+          <div><span class="meta-label">BASED IN</span><strong>Karachi, Pakistan</strong></div>
+          <div><span class="meta-label">LOCAL TIME</span><strong id="localClock">PKT · --:--</strong></div>
+        </div>
+      </div>
+      <div class="hero-side-note">DESIGN · DEVELOP · DELIVER</div>
+      <div class="hero-scroll-label"><span></span> SCROLL TO EXPLORE</div>
+      <div class="hero-index">01 <span>/ 05</span></div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-top reveal"><span class="section-number">01 / ABOUT</span><span class="section-rule"></span><span class="section-note">A LITTLE INTRODUCTION</span></div>
+      <div class="about-layout">
+        <div class="about-heading reveal"><p class="overline">WHO I AM</p><h2>Curious by nature.<br><span class="muted">Developer by craft.</span></h2></div>
+        <div class="about-copy reveal">
+          <p class="lead">I’m a Full-Stack Web Developer with a foundation in front-end and back-end development, and experience as a Front-End Developer Intern at <strong>Ingenious Software House</strong>.</p>
+          <p>I enjoy turning ideas into clear, useful web experiences. My work spans responsive interfaces, web applications, and AI-focused projects. I care about writing maintainable code, thoughtful details, and continuously improving my engineering skills.</p>
+          <a class="text-link" href="mailto:fayyaz7406@gmail.com">Get in touch <span>↗</span></a>
+        </div>
+      </div>
+      <div class="about-stats">
+        <div class="stat reveal"><span class="stat-index">A</span><strong>Front-end</strong><span>Interface development</span></div>
+        <div class="stat reveal"><span class="stat-index">B</span><strong>Back-end</strong><span>Application foundations</span></div>
+        <div class="stat reveal"><span class="stat-index">C</span><strong>AI projects</strong><span>Interview agent concepts</span></div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="section-top reveal"><span class="section-number">02 / TOOLKIT</span><span class="section-rule"></span><span class="section-note">TOOLS I WORK WITH</span></div>
+      <div class="skills-intro reveal"><h2>My development<br><span class="gradient-text">toolkit.</span></h2><p>A growing set of technologies I use to build, shape, and improve digital products.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><span class="skill-count">01</span><h3>Programming & Web</h3><div class="tags"><span>JavaScript</span><span>HTML</span><span>CSS</span></div><div class="skill-line"><i style="--w:88%"></i></div></article>
+        <article class="skill-card reveal"><span class="skill-count">02</span><h3>Front-end</h3><div class="tags"><span>React</span><span>Angular</span><span>ASP.NET</span></div><div class="skill-line"><i style="--w:82%"></i></div></article>
+        <article class="skill-card reveal"><span class="skill-count">03</span><h3>Back-end & Frameworks</h3><div class="tags"><span>Node.js</span><span>Flask</span><span>Django</span></div><div class="skill-line"><i style="--w:76%"></i></div></article>
+        <article class="skill-card reveal"><span class="skill-count">04</span><h3>Databases</h3><div class="tags"><span>MySQL</span><span>SQL</span><span>MongoDB</span></div><div class="skill-line"><i style="--w:74%"></i></div></article>
+        <article class="skill-card reveal skill-wide"><span class="skill-count">05</span><h3>Development</h3><div class="tags"><span>MERN Stack</span><span>Full-Stack Web Development</span></div><div class="skill-line"><i style="--w:84%"></i></div></article>
+      </div>
+      <p class="skills-footnote reveal">Skill indicators are visual design elements, not measured proficiency ratings.</p>
+    </section>
+
+    <section class="section work-section" id="work">
+      <div class="section-top reveal"><span class="section-number">03 / SELECTED WORK</span><span class="section-rule"></span><span class="section-note">SOME THINGS I'VE BUILT</span></div>
+      <div class="work-heading reveal"><div><p class="overline">PROJECT ARCHIVE</p><h2>Ideas into<br><span class="muted">experiences.</span></h2></div><p>Explore a selection of websites and application concepts. Each project opens in a new tab.</p></div>
+      <div class="project-filters reveal" role="group" aria-label="Filter projects">
+        <button class="filter active" data-filter="all">All projects <span>06</span></button>
+        <button class="filter" data-filter="web">Websites <span>03</span></button>
+        <button class="filter" data-filter="ai">AI & Tools <span>03</span></button>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card reveal" data-category="web">
+          <a class="project-visual barber-visual" href="https://fayyaz7406-sys.github.io/N1C4-Barber-Shop/" target="_blank" rel="noopener" aria-label="Open N1C4 Barber Shop project"><div class="visual-glow"></div><span class="visual-label">01 / WEB DESIGN</span><div class="mock-window"><div class="mock-top"><i></i><i></i><i></i></div><div class="mock-barber"><span>N1C4</span><b>THE ART OF<br>THE CUT.</b><small>BOOK YOUR EXPERIENCE</small></div></div><span class="visual-arrow">↗</span></a>
+          <div class="project-info"><div><span class="project-type">BARBER SHOP WEBSITE</span><h3>N1C4 Barber Shop</h3></div><a class="project-open" href="https://fayyaz7406-sys.github.io/N1C4-Barber-Shop/" target="_blank" rel="noopener" aria-label="Visit N1C4 Barber Shop">↗</a></div>
+        </article>
+        <article class="project-card reveal" data-category="web">
+          <a class="project-visual kings-visual" href="https://fayyaz7406-sys.github.io/KINGS-CUT-Barber-Shop/" target="_blank" rel="noopener" aria-label="Open Kings Cut project"><div class="visual-label">02 / WEB DESIGN</div><div class="crown">♛</div><div class="kings-type">KING'S<br><em>CUT</em></div><div class="kings-sub">PRECISION IS THE STANDARD</div><span class="visual-arrow">↗</span></a>
+          <div class="project-info"><div><span class="project-type">BARBER SHOP WEBSITE</span><h3>KING'S CUT</h3></div><a class="project-open" href="https://fayyaz7406-sys.github.io/KINGS-CUT-Barber-Shop/" target="_blank" rel="noopener" aria-label="Visit Kings Cut">↗</a></div>
+        </article>
+        <article class="project-card reveal" data-category="ai">
+          <a class="project-visual sunrise-visual" href="https://fayyaz7406-sys.github.io/sunrise-ai-interviewer/" target="_blank" rel="noopener" aria-label="Open Sunrise AI Interviewer project"><div class="visual-label">03 / AI APPLICATION</div><div class="sunrise-sun"></div><div class="sunrise-copy"><small>YOUR NEXT CHAPTER</small><b>Meet your<br>AI interviewer.</b><span>● READY WHEN YOU ARE</span></div><span class="visual-arrow">↗</span></a>
+          <div class="project-info"><div><span class="project-type">AI INTERVIEW AGENT</span><h3>Sunrise AI Interviewer</h3></div><a class="project-open" href="https://fayyaz7406-sys.github.io/sunrise-ai-interviewer/" target="_blank" rel="noopener" aria-label="Visit Sunrise AI Interviewer">↗</a></div>
+        </article>
+        <article class="project-card reveal" data-category="ai">
+          <a class="project-visual sap-visual" href="https://fayyaz7406-sys.github.io/SAP-S-4HANA-DATA-TEAM-VOICE-INTERVIEW-AGENT/" target="_blank" rel="noopener" aria-label="Open SAP S4HANA Voice Interview Agent project"><div class="visual-label">04 / AI APPLICATION</div><div class="sap-mark">SAP<span>.</span></div><div class="waveform"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="sap-copy">VOICE INTERVIEW AGENT<br><small>S/4HANA · DATA TEAM</small></div><span class="visual-arrow">↗</span></a>
+          <div class="project-info"><div><span class="project-type">AI INTERVIEW AGENT</span><h3>SAP S/4HANA Voice Agent</h3></div><a class="project-open" href="https://fayyaz7406-sys.github.io/SAP-S-4HANA-DATA-TEAM-VOICE-INTERVIEW-AGENT/" target="_blank" rel="noopener" aria-label="Visit SAP Voice Agent">↗</a></div>
+        </article>
+        <article class="project-card reveal" data-category="ai">
+          <a class="project-visual toolkit-visual" href="https://fayyaz7406-sys.github.io/saas/" target="_blank" rel="noopener" aria-label="Open WhatsApp Business Toolkit project"><div class="visual-label">05 / SAAS TOOL</div><div class="toolkit-card"><div class="wa-icon">✆</div><span>BUSINESS TOOLKIT</span><b>Conversations<br>made simpler.</b><div class="toolkit-pills"><i></i><i></i><i></i></div></div><span class="visual-arrow">↗</span></a>
+          <div class="project-info"><div><span class="project-type">WHATSAPP BUSINESS TOOLKIT</span><h3>WhatsApp Business Toolkit</h3></div><a class="project-open" href="https://fayyaz7406-sys.github.io/saas/" target="_blank" rel="noopener" aria-label="Visit WhatsApp Business Toolkit">↗</a></div>
+        </article>
+        <article class="project-card reveal" data-category="web">
+          <a class="project-visual salon-visual" href="https://fayyaz7406-sys.github.io/Nelo-Wong-Salon/" target="_blank" rel="noopener" aria-label="Open Nelo Wong Salon project"><div class="visual-label">06 / WEB DESIGN</div><div class="salon-frame"><span>NW</span><div class="salon-name">NELO<br><i>WONG</i></div><small>HAIR · BEAUTY · YOU</small><div class="salon-line"></div></div><span class="visual-arrow">↗</span></a>
+          <div class="project-info"><div><span class="project-type">SALON WEBSITE</span><h3>Nelo Wong Salon</h3></div><a class="project-open" href="https://fayyaz7406-sys.github.io/Nelo-Wong-Salon/" target="_blank" rel="noopener" aria-label="Visit Nelo Wong Salon">↗</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section journey-section" id="journey">
+      <div class="section-top reveal"><span class="section-number">04 / THE JOURNEY</span><span class="section-rule"></span><span class="section-note">LEARNING & EXPERIENCE</span></div>
+      <div class="journey-layout">
+        <div class="journey-title reveal"><p class="overline">THE FOUNDATION</p><h2>Always<br><span class="muted">in progress.</span></h2><p>Building knowledge through education, practical work, and continued learning.</p></div>
+        <div class="timeline">
+          <article class="timeline-item reveal"><span class="timeline-date">PROFESSIONAL EXPERIENCE</span><div class="timeline-dot"></div><h3>Front-End Developer Intern</h3><p class="timeline-place">Ingenious Software House</p><p>Completed an internship in a software-house environment.</p></article>
+          <article class="timeline-item reveal"><span class="timeline-date">PRESENT</span><div class="timeline-dot"></div><h3>Bachelor's in Applied Computing</h3><p class="timeline-place">IQRA University</p></article>
+          <article class="timeline-item reveal"><span class="timeline-date">PRESENT</span><div class="timeline-dot"></div><h3>Aptech Certificate in Computer Professional</h3><p class="timeline-place">Aptech Center, Shahrah-e-Faisal</p></article>
+          <article class="timeline-item reveal"><span class="timeline-date">CERTIFICATION</span><div class="timeline-dot"></div><h3>micro1 — Outstanding Performance</h3><p class="timeline-place">AI Interview · 11 June 2026</p></article>
+          <article class="timeline-item reveal"><span class="timeline-date">CERTIFICATION</span><div class="timeline-dot"></div><h3>Claude 101</h3><p class="timeline-place">Anthropic · Completion Certificate</p></article>
+          <article class="timeline-item reveal"><span class="timeline-date">EARLIER EDUCATION</span><div class="timeline-dot"></div><h3>Intermediate & Matriculation</h3><p class="timeline-place">Islamia Government Science College · Merit 2 Excel Foundation School</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-grid"></div>
+      <div class="section-top reveal"><span class="section-number">05 / CONTACT</span><span class="section-rule"></span><span class="section-note">HAVE A PROJECT IN MIND?</span></div>
+      <div class="contact-content reveal"><p class="overline">LET'S CREATE SOMETHING</p><h2>Have an idea?<br><span class="gradient-text">Let's build it.</span></h2><p class="contact-desc">I’m open to discussing opportunities, collaborations, and interesting projects.</p><a class="button button-primary contact-button magnetic" href="https://wa.me/923272304143?text=Hi%20Fayyaz%2C%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener">Start a conversation <span>↗</span></a></div>
+      <div class="contact-details reveal">
+        <a href="mailto:fayyaz7406@gmail.com"><span>EMAIL</span>fayyaz7406@gmail.com <b>↗</b></a>
+        <a href="https://wa.me/923272304143" target="_blank" rel="noopener"><span>WHATSAPP</span>+92 327 2304143 <b>↗</b></a>
+        <div><span>LOCATION</span>Karachi, Sindh, Pakistan</div>
+      </div>
+    </section>
+  </main>
+
+  <button class="back-to-top-float" id="backToTop" aria-label="Back to top">↑</button>
+  <footer class="footer"><a class="brand" href="#home">FK<span>.</span></a><p>Designed & built with intention.</p><span>© <span id="year"></span> FAYYAZ AHMED KHAN</span><a class="back-top" href="#top">BACK TO TOP ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
